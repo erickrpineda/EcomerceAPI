@@ -435,7 +435,7 @@ advertencia 6002: La tabla o vista 'ecomercebd.dbo.ListaPedido' no tiene definid
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="ecomercebdEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="EcomerceEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Carrito" EntityType="Self.Carrito" />
           <EntitySet Name="Categorias" EntityType="Self.Categorias" />
           <EntitySet Name="Clientes" EntityType="Self.Clientes" />
@@ -483,7 +483,7 @@ advertencia 6002: La tabla o vista 'ecomercebd.dbo.ListaPedido' no tiene definid
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ecomercebdModelStoreContainer" CdmEntityContainer="ecomercebdEntities">
+        <EntityContainerMapping StorageEntityContainer="ecomercebdModelStoreContainer" CdmEntityContainer="EcomerceEntities">
           <EntitySetMapping Name="Carrito">
             <EntityTypeMapping TypeName="ecomercebdModel.Carrito">
               <MappingFragment StoreEntitySet="Carrito">

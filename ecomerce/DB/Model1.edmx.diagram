@@ -4,16 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="c34ad74ddb8a4e1f94625444bf837871" Name="Diagram1">
-        <EntityTypeShape EntityType="ecomercebdModel.Carrito" Width="1.5" PointX="4.25" PointY="1.5" IsExpanded="true" />
+      <Diagram DiagramId="a84f0d7ab2cd4b9698464f7deda143e5" Name="Diagram1">
+        <EntityTypeShape EntityType="ecomercebdModel.Carrito" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
         <EntityTypeShape EntityType="ecomercebdModel.Categorias" Width="1.5" PointX="1.5" PointY="14.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ecomercebdModel.Clientes" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ecomercebdModel.Direcciones" Width="1.5" PointX="4.875" PointY="5.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ecomercebdModel.MetodosPago" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="ecomercebdModel.Pedidos" Width="1.5" PointX="4.375" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomercebdModel.Direcciones" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomercebdModel.MetodosPago" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomercebdModel.Pedidos" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ecomercebdModel.Productos" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="ecomercebdModel.Usuarios" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ecomercebdModel.ListaPedido" Width="1.5" PointX="9" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomercebdModel.Usuarios" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomercebdModel.ListaPedido" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
         <AssociationConnector Association="ecomercebdModel.FK_Carrito_Clientes" ManuallyRouted="false" />
         <AssociationConnector Association="ecomercebdModel.FK_Carrito_Productos" ManuallyRouted="false" />
         <AssociationConnector Association="ecomercebdModel.FK_Productos_Categorias" ManuallyRouted="false" />

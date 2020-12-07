@@ -14,11 +14,12 @@ namespace ecomerce.Repositorio
         {
             try
             {
-                var db = new ecomercebdEntities();
+                var db = new EcomerceEntities();
                 var x = ConvertToDBTable(c);
 
                 db.Clientes.Add(x);
                 db.SaveChanges();
+                
                 return true;
             }
             catch (Exception ex)
@@ -32,7 +33,7 @@ namespace ecomerce.Repositorio
         {
             try
             {
-                var db = new ecomercebdEntities();
+                var db = new EcomerceEntities();
                 var x = db.Clientes.Where(k => k.ID == id).FirstOrDefault();
                 return x == null ? null : ConvertToDomain(x);
             }
@@ -47,7 +48,7 @@ namespace ecomerce.Repositorio
         {
             try
             {
-                var db = new ecomercebdEntities();
+                var db = new EcomerceEntities();
                 var Lista = db.Clientes.ToList();
 
                 List<M_Clientes> MiLista = new List<M_Clientes>();
@@ -77,7 +78,7 @@ namespace ecomerce.Repositorio
             var result = false;
             try
             {
-                var db = new ecomercebdEntities();
+                var db = new EcomerceEntities();
                 var x = db.Clientes.SingleOrDefault(k => k.ID == c.ID);
 
                 if (x != null)
@@ -107,7 +108,7 @@ namespace ecomerce.Repositorio
         {
             try
             {
-                var db = new ecomercebdEntities();
+                var db = new EcomerceEntities();
                 var e = db.Clientes.Any(x => x.ID == id);
                 return e;
             }

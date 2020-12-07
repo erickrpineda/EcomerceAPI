@@ -13,10 +13,10 @@ namespace ecomerce.DB
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ecomercebdEntities : DbContext
+    public partial class EcomerceEntities : DbContext
     {
-        public ecomercebdEntities()
-            : base("name=ecomercebdEntities")
+        public EcomerceEntities()
+            : base("name=EcomerceEntities")
         {
         }
     
