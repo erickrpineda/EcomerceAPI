@@ -9,9 +9,10 @@ namespace ecomerce.Modelos
     public class M_Usuarios
     {
         public int ID { get; set; }
+        public string Tipo { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public string Telefono { get; set; }
-        public string CorreoE { get; set; }
+        public string usuario { get; set; }
+        public string contraseña { get; set; }
     }
 }
