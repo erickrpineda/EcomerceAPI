@@ -120,7 +120,14 @@
     <Compile Include="Modelos\M_Usuarios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio\CarritoRepositorio.cs" />
+    <Compile Include="Repositorio\CategoriasRepositorio.cs" />
     <Compile Include="Repositorio\ClientesRepositorio.cs" />
+    <Compile Include="Repositorio\DireccionesRepositorio.cs" />
+    <Compile Include="Repositorio\ListaPedidoRepositorio.cs" />
+    <Compile Include="Repositorio\MetodosPagoRepositorio.cs" />
+    <Compile Include="Repositorio\PedidosRepositorio.cs" />
+    <Compile Include="Repositorio\ProductosRepositorio.cs" />
     <Compile Include="Repositorio\UsuariosRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>

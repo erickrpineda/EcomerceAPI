@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ecomerce.Modelos
 {
-    class M_Pedidos
+    public class M_Pedidos
     {
         public int ID { get; set; }
         public Nullable<int> IDCliente { get; set; }
