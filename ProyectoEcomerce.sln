@@ -9,8 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecomerce", "ecomerce\ecomer
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU     
+		Release|Any CPU = Release|Any CPU    
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C19DDDDA-94B4-4981-B410-0DAAC6366775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
